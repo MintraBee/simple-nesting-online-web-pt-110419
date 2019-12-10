@@ -38,6 +38,8 @@ def alan_kay_is_known_for
         }
      }
 end
+alan_kay_is_known_for => {:known_for => "Object Orientation"
+}
 
 def dennis_ritchies_language
 	programmer_hash = 
@@ -55,7 +57,9 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-end
+
+dennis_ritchies_language => {:languages => "C"
+}
 
 def adding_matz
 # add the following information to the top level of programmer_hash
